@@ -53,10 +53,25 @@ body{
 }
 
 .nome{
-    padding: 20px;
+    padding: 23px;
     position: absolute;
     left: 35px;
     color: white;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 12   px;
+}
+
+.score{
+    color: white;
+    font-size: 20px;
+    font-family: 'Press Start 2P', system-ui;
+}
+
+#display-score{
+    position: absolute;
+    left: 70%;
+    width: 160px;
+    padding: 20px;
 }
 
 @keyframes pipe-animation {
