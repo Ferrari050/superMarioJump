@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(68, 17, 17);
+}
+
+.titulo{
+    color: white;
+    height: 28px;
+    padding-top: 4px;
+    font-size: 18px;
+    text-align: center;
+    background-color: black;
+}
+.tela{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    border-bottom: 15px solid #048300;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#78caeb, white);
+}
+
+.pipe{
+    height: 80px;
+    position: absolute;
+    bottom: 0px;
+    animation: pipe-animation 2.5s infinite linear;
+}
+
+.mario{
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.jump{
+    animation: mario-jump 500ms ease-out;
+}
+
+.clouds{
+    height: 150px;
+    width: 500px;
+    position: absolute;
+    right: 0px;
+    animation: cloud-animation 9.5s infinite linear;
+    top: 50px;
+}
+
+.linkedin{
+    padding: 15px;
+    width: 30px;
+    position: absolute;
+}
+
+.nome{
+    padding: 20px;
+    position: absolute;
+    left: 35px;
+    color: white;
+}
+
+@keyframes pipe-animation {
+    from {
+        right: -90px;
+    }
+    to {
+        right: 100%;
+    }
+
+}
+
+@keyframes cloud-animation {
+    from {
+        right: -550px;
+    }
+    to {
+        right: 100%;
+    }
+
+}
+
+@keyframes mario-jump {
+    0%{
+        bottom: 0px;
+    }
+    50% {
+        bottom: 180px;
+    }
+    60%{
+        bottom: 180px;
+    }
+    70%{
+        bottom: 180px;
+    }
+    100%{
+        bottom: 0px;
+    }   
+}
