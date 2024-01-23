@@ -69,7 +69,8 @@ body{
 
 #display-score{
     position: absolute;
-    left: 60%;
+    left: 35px;
+    bottom: 70px;
     width: 160px;
     padding: 20px;
 }
