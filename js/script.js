@@ -9,7 +9,7 @@ document.addEventListener('click', function() {
     mario.classList.add('jump');
     setTimeout(function() {
         mario.classList.remove('jump');
-      }, 500);
+      }, 1000);
     });
 
 document.addEventListener('keydown', function() {
@@ -19,7 +19,7 @@ document.addEventListener('keydown', function() {
     mario.classList.add('jump');
     setTimeout(function() {
         mario.classList.remove('jump');
-          }, 500);
+          }, 1000);
     });
 
     const loop = setInterval(() => {
