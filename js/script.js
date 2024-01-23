@@ -12,15 +12,6 @@ document.addEventListener('click', function() {
       }, 500);
     });
 
-document.addEventListener('keydown', function() {
-    titulo.style.color = 'transparent';
-    titulo.style.background = 'none';
-    var mario = document.getElementById('mario');        
-    mario.classList.add('jump');
-    setTimeout(function() {
-        mario.classList.remove('jump');
-          }, 500);
-    });
 
     const loop = setInterval(() => {
         
