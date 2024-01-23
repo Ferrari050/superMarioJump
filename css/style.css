@@ -71,9 +71,9 @@ body{
 
 #display-score{
     position: absolute;
-    left: 15px;
+    left: 10px;
     bottom: 70px;
-    width: 160px;
+    width: 200px;
     padding: 20px;
 }
 
