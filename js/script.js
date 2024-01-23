@@ -2,7 +2,7 @@ const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 const titulo = document.querySelector('.titulo');
 
-document.addEventListener('keydown', function() {
+document.addEventListener('click', function() {
     titulo.style.color = 'transparent';
     titulo.style.background = 'none';
     var mario = document.getElementById('mario');
