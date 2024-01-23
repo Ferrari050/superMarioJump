@@ -67,12 +67,11 @@ body{
     color: white;
     font-size: 20px;
     font-family: 'Press Start 2P', system-ui;
+    position: absolute;
 }
 
 #display-score{
-    position: absolute;
-    left: 10px;
-    bottom: 70px;
+    bottom: -100px;
     width: 200px;
     padding: 20px;
 }
